@@ -1,0 +1,32 @@
+<h4>تحديد السبب /
+    @switch($project->case)
+    @case('0')
+    عصب
+    @break
+    @case('1')
+    عادي
+    @break
+    @case('2')
+    خلع
+    @break
+    @case('3')
+    تنظيف
+    @break
+    @case('4')
+    دعامه
+    @break
+    @case('5')
+    ZIRCON
+    @break
+    @case('6')
+    EMAX
+    @break
+    @case('7')
+    VENEER
+    @break
+    @case('8')
+    PORCELAIN
+    @break
+    @default
+    @endswitch
+</h4>
